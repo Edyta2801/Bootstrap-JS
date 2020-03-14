@@ -86,9 +86,13 @@ button.btn.btn-lg.btn-default {
 footer p {
     margin-top: 20px;
 }
-.modal-body img{
-    width:100%;
 
+.modal-body img {
+    width: 100%;
+}
+
+.col-lg-4 span {
+    font-weight: 600;
 }
 
 @media (min-width: 768px) {
