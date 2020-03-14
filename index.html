@@ -162,6 +162,13 @@
         <div>
             <button class="btn btn-default" data-toggle="tooltip" title="Your text in tooltip">My button</button>
         </div>
+        <div>
+            <button class="btn btn-lg btn-default" data-toggle="popover" data-animation="false" data-delay="300"
+                data-trigger="click hover" title="Popover title"
+                data-placement="top"
+                data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle the
+                popover</button>
+        </div>
 
         <footer>
             <p class="pull-right"><a href="#">Back to top</a> </p>
@@ -194,6 +201,9 @@
     <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
     <script>
         $("[data-toggle='tooltip']").tooltip();
+    </script>
+    <script>
+        $("[data-toggle='popover']").popover();
     </script>
 </body>
 
