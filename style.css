@@ -86,6 +86,10 @@ button.btn.btn-lg.btn-default {
 footer p {
     margin-top: 20px;
 }
+.modal-body img{
+    width:100%;
+
+}
 
 @media (min-width: 768px) {
     .navbar-wrapper {
